@@ -1,0 +1,19 @@
+//TEAM ID : PNT2022TMID21463
+
+TEAM LEADER : 917719D133- SHANMUHAM S 
+TEAM MEMBER : 917719D013- BAALAHEMNATH S
+TEAM MEMBER : 917719D048- MERRYL MEKANA P
+TEAM MEMBER : 917719D020- DHEKSHAA E//
+
+
+QUESTION: 
+Build a python code, Assume u get temperature and humidity values (generated with random function to a variable) and write a condition to continuously detect alarm in case of high temperature.
+
+PROGRAM:
+
+import random
+while(True):
+    temp=random.randrange(0,100)
+    humid=random.randrange(0,100)
+    if (temp>90 or temp<80) and humid>60:
+        print("------Dangerious!!!------")
